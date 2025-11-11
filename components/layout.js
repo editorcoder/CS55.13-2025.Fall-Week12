@@ -1,6 +1,6 @@
 /*
 editorcoder
-2025-09-15
+2025-11-10
 SRJC CS55.13 Fall 2025
 Week 3: Assignment 4: Next.js Basics 
 layout.js
@@ -38,7 +38,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="https://dev-basic-headless-cms-app.pantheonsite.io/wp-content/uploads/2025/11/profile.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -51,18 +51,18 @@ export default function Layout({ children, home }) {
             <Link href="/">
               <Image
                 priority
-                src="/images/profile.jpg"
+                src="https://dev-basic-headless-cms-app.pantheonsite.io/wp-content/uploads/2025/11/profile.jpg"
                 className={utilStyles.borderCircle}
                 height={108}
                 width={108}
                 alt='Home page'
               />
             </Link>
-            <p className={`${utilStyles.headingXl}`}>
+            <h1 className={`${utilStyles.headingXl}`}>
               <Link href="/" className={utilStyles.colorInherit}>
                 {name}
               </Link>
-            </p>
+            </h1>
           </>
         )}
       </header>

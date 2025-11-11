@@ -1,0 +1,37 @@
+/*
+editorcoder
+2025-11-10
+SRJC CS55.13 Fall 2025
+Week 12: Assignment 12: Basic Headless CMS-Powered App 
+index.module.css
+*/
+
+.homeIntro {
+  margin-top: 1.2rem;
+}
+
+.home {
+  text-align: start;
+}
+
+.postListItem {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.postImageLink {
+  flex-shrink: 0;
+  display: block;
+}
+
+.postThumbnail {
+  border-radius: 0.5rem;
+  object-fit: cover;
+  box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.postContent {
+  flex: 1;
+}
+

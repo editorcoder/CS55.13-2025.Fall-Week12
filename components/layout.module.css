@@ -17,7 +17,7 @@ layout.module.css
   flex-direction: column;
   align-items: center;
   background-color: #2ac1b5; /* backup bg-color in case bg-image does not load */
-  background-image: url("/images/homo-studio-VqUOolSjxVE-unsplash-medium.jpg");
+  background-image: url("https://dev-basic-headless-cms-app.pantheonsite.io/wp-content/uploads/2025/11/homo-studio-VqUOolSjxVE-unsplash-medium.jpg");
   /* Photo by <a href="https://unsplash.com/@homostudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Homo studio</a> on <a href="https://unsplash.com/photos/a-boat-floating-on-top-of-a-large-body-of-water-VqUOolSjxVE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
        */
   background-position: left top;

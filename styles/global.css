@@ -8,8 +8,7 @@ global.css
 
 *,
 html,
-body,
-p {
+body {
   padding: 0;
   margin: 0;
 }
@@ -46,6 +45,7 @@ ul {
 }
 
 p {
+  padding: 0;
   margin: 0 0 1rem 0;
 }
 
@@ -54,36 +54,24 @@ p:first-of-type {
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
   margin-bottom: 1rem;
-}
-
-section.homeIntro {
-  margin-top: 1.2rem;
-}
-
-h2.home {
-  text-align: start;
 }
 
 table {
   border-collapse: collapse;
   margin: 1rem auto 2rem auto;
-}
-
-table,
-td {
   text-align: start;
 }
 
-th
- {
-  text-align: center;
-    padding: 0.4rem;
+td {
+  text-align: start;
+  padding: 0.4rem 0.6rem;
 }
 
-td {
-    padding: 0.4rem 0.6rem;
+th {
+  text-align: center;
+  padding: 0.4rem;
 }
 
 th,
