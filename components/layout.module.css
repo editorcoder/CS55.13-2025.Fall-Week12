@@ -1,0 +1,32 @@
+/*
+editorcoder
+2025-09-09
+SRJC CS55.13 Fall 2025
+Week 3: Assignment 4: Next.js Basics 
+layout.module.css
+*/
+
+.container {
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 2rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2ac1b5; /* backup bg-color in case bg-image does not load */
+  background-image: url("/images/homo-studio-VqUOolSjxVE-unsplash-medium.jpg");
+  /* Photo by <a href="https://unsplash.com/@homostudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Homo studio</a> on <a href="https://unsplash.com/photos/a-boat-floating-on-top-of-a-large-body-of-water-VqUOolSjxVE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+       */
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 0 0 0;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
